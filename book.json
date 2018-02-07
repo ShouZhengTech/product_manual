@@ -1,3 +1,9 @@
 {
-  "plugins": ["toggle-chapters"]
+  "plugins": [ "summary", "toggle-chapters", "last-modified", "disqus"],
+  "pluginsConfig": {
+        "disqus": {
+            "shortName": "baojiankang"
+        }
+    }
+
 }
